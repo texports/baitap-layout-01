@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  header,footer {
+    width:100%;
+    height:50px;
+    background:#353A3F;
+  }
+  .container {
+    width:80%;
+    margin: 0 auto;
+  }
+  .intro {
+    margin-top:20px;
+    width:100%;
+    height:300px;
+    background:#E9ECEF;
+  }
+  .articles {
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .article {
+    width:calc(95%/4);
+    float:left;
+    height:200px;
+    background: #18191B;
+    box-sizing: border-box;
+  }
+  footer {
+    margin-top:20px;
+  }
